@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Wikipedia Search Engine</title>
+	<meta charset="UTF-8" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	
+	<!--Loading Bootstrap-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	 <!--Loading Animate CSS-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+   <!--Loading CSS-->
+  <link rel="stylesheet" href="style.css">
+  <style>
+  @import url('https://fonts.googleapis.com/css?family=Quicksand');
+  </style>
+  </head>
+
+
+<body>
+ <div class="row">
+    <div class="col-xs-12">
+      <h1 class="mainT text-center">Wikipedia Search Engine</h1>
+    </div>
+  </div>
+  <h5 class="text-center random">Get a <span id="randomQ">RANDOM</span> article.</h5>
+  <h3 class="text-center random">or</h3>
+  <h5 class="text-center expla">Type your search below and press Enter.</h5>
+  <div class="searchB text-center">
+    <div class="container">
+      <input type="text" name="search" id="query">
+    </div>
+  </div>
+  <div class="container">
+    <div class="articles">
+      <div class="row">
+        <div class="col-lg-12">
+          <a href="#">
+            <div id="article1">
+              <h3></h3>
+              <br>
+              <p></p>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-12">
+          <a href="#">
+            <div id="article2">
+              <h3></h3>
+              <br>
+              <p></p>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-12">
+          <a href="#">
+            <div id="article3">
+              <h3></h3>
+              <br>
+              <p></p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--Loading jQuery-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!--Loading Javascript-->
+<script src="script.js"></script>
+</body>
+</html>
